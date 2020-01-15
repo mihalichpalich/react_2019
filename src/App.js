@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react'; //useEffect - замена componentDidMount, componentDidUpdate и componentWillUnmount
 import TodoList from "./Todo/TodoList";
 import Context from "./context";
 import AddTodo from "./Todo/AddTodo";
